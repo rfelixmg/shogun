@@ -23,6 +23,15 @@ Regression
 
    examples/regression/**
 
+Statistical Testing
+-------------------
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   examples/statistical_testing/**
+
 Kernels
 -------
 
