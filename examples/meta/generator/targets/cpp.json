@@ -55,7 +55,7 @@
         "NumberLiteral": "$number",
         "MethodCall": "$object->$method($arguments)",
         "Identifier": "$identifier",
-        "Enum":"$value"
+        "Enum":"$type::$value"
     },
     "Print": "SG_SPRINT($expr)",
     "OutputDirectoryName": "cpp",
