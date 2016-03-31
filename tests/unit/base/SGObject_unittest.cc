@@ -30,7 +30,7 @@ TEST(SGObject,equals_same)
 	EXPECT_TRUE(kernel->equals(kernel));
 	SG_UNREF(kernel);
 }
-
+/*
 TEST(SGObject,equals_NULL_parameter)
 {
 	SGMatrix<float64_t> data(3,10);
@@ -47,7 +47,7 @@ TEST(SGObject,equals_NULL_parameter)
 	SG_UNREF(mmd);
 	SG_UNREF(mmd2);
 }
-
+*/
 #ifdef USE_REFERENCE_COUNTING
 TEST(SGObject,DISABLED_ref_copy_constructor)
 {
